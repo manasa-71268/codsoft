@@ -1,0 +1,86 @@
+html code
+************************************************
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="st.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Manasa Amirishetti</h1>
+      <p>Data Analyst</p>
+    </header>
+
+    <section id="about1">
+      <h2>
+        I'm a passionate to analysis of the data in detail.
+      </h2>
+    </section>
+    <section id="skills">
+      <h2>
+        Good at Basic programming languages like c,python
+        PowerBi
+        Microsoft Excel
+      </h2>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: amirishettimanasa68@gmail.com</p>
+      <p>Phone: 6281561527 </p>
+    </section>
+    <footer>
+      <p>&copy; 2024 manasa amirishetti. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
+
+css code 
+*****************************************************
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: rgb(198, 209, 216);
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#about1 {
+  text-align: center;
+  padding: 1px 0;
+}
+#about {
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+#skills {
+  text-align: left;
+  padding: 10px 0;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
